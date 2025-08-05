@@ -57,11 +57,11 @@ python manage.py createsuperuser
 python manage.py runserver
 
 CRUD Operations Endpoints
-Operation	HTTP Method	Endpoint	Description
-Get all users	GET	/users/	Retrieve details of all users
-Get user by email	GET	/user/<email>/	Retrieve user details by email
-Update user details	PUT	/user/update/<email>/	Update user details by email
-Delete user	DELETE	/user/delete/<email>/	Delete user by email
+Operation	           HTTP Method  Endpoint	              Description
+Get all users    	   GET	        /users/	                Retrieve details of all users
+Get user by email	   GET	        /user/<email>/	        Retrieve user details by email
+Update user details  PUT	        /user/update/<email>/	  Update user details by email
+Delete user	         DELETE	      /user/delete/<email>/	  Delete user by email
 
 Use Postman to test these API endpoints.
 
